@@ -1,7 +1,8 @@
 # Itamae::Plugin::Recipe::GitNow
 
-
 [Itamae](https://github.com/itamae-kitchen/itamae) plugin to install [git-now](https://github.com/iwata/git-now)
+
+[![Dependency Status](https://gemnasium.com/sue445/itamae-plugin-recipe-git_now.svg)](https://gemnasium.com/sue445/itamae-plugin-recipe-git_now)
 
 ## Installation
 
