@@ -1,8 +1,7 @@
 # Itamae::Plugin::Recipe::GitNow
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/itamae/plugin/recipe/git_now`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+[Itamae](https://github.com/itamae-kitchen/itamae) plugin to install [git-now](https://github.com/iwata/git-now)
 
 ## Installation
 
@@ -22,7 +21,33 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Recipe
+```ruby
+# recipe.rb
+
+# itamae v1.5.2 or later
+include_recipe "git_now"
+
+# older
+include_recipe "git_now::default"
+```
+
+### Node
+```yml
+# node.yml
+git_now:
+  # tig prefix (default: /usr/local)
+  prefix: /usr/local
+  
+  # source dir (default: #{node[:git_now][:prefix]}/src)
+  src: /usr/local/src
+  
+  # specify scheme to use in git clone (default: git)
+  scheme: git
+
+  # install revision (default: HEAD)
+  revision: v0.1.1.0
+```
 
 ## Development
 
@@ -32,7 +57,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/itamae-plugin-recipe-git_now.
+Bug reports and pull requests are welcome on GitHub at https://github.com/sue445/itamae-plugin-recipe-git_now.
 
 
 ## License
