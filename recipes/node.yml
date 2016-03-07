@@ -1,0 +1,3 @@
+git_now:
+  prefix: /usr/local
+  revision: v0.1.1.0
