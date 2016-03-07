@@ -8,6 +8,7 @@ node.reverse_merge!(
 node[:git_now][:src] ||= "#{node[:git_now][:prefix]}/src"
 
 package "git"
+package "make"
 
 install_dir = "#{node[:git_now][:src]}/git-now"
 

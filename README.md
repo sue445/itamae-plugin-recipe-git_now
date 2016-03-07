@@ -5,6 +5,8 @@
 [![Gem Version](https://badge.fury.io/rb/itamae-plugin-recipe-git_now.svg)](https://badge.fury.io/rb/itamae-plugin-recipe-git_now)
 [![Dependency Status](https://gemnasium.com/sue445/itamae-plugin-recipe-git_now.svg)](https://gemnasium.com/sue445/itamae-plugin-recipe-git_now)
 
+[![wercker status](https://app.wercker.com/status/48a0737824a0f6c97b62ae3ba89a6446/m/master "wercker status")](https://app.wercker.com/project/bykey/48a0737824a0f6c97b62ae3ba89a6446)
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -56,6 +58,15 @@ git_now:
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake false` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+
+## Testing
+requirements [Vagrant](https://www.vagrantup.com/)
+
+```sh
+vagrant up centos70
+bundle exec rake itamae:centos70
+bundle exec rake spec:centos70
+```
 
 ## Contributing
 
