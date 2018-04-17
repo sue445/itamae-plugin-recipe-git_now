@@ -10,6 +10,11 @@ node[:git_now][:src] ||= "#{node[:git_now][:prefix]}/src"
 package "git"
 package "make"
 
+case node[:platform]
+when 'redhat'
+  package "which"
+end
+
 install_dir = "#{node[:git_now][:src]}/git-now"
 
 git install_dir do
