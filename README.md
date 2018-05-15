@@ -4,7 +4,6 @@
 
 [![Gem Version](https://badge.fury.io/rb/itamae-plugin-recipe-git_now.svg)](https://badge.fury.io/rb/itamae-plugin-recipe-git_now)
 [![Build Status](https://travis-ci.org/sue445/itamae-plugin-recipe-git_now.svg?branch=master)](https://travis-ci.org/sue445/itamae-plugin-recipe-git_now)
-[![Dependency Status](https://gemnasium.com/sue445/itamae-plugin-recipe-git_now.svg)](https://gemnasium.com/sue445/itamae-plugin-recipe-git_now)
 
 ## Installation
 
