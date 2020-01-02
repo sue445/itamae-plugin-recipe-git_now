@@ -3,7 +3,7 @@
 [Itamae](https://github.com/itamae-kitchen/itamae) plugin to install [git-now](https://github.com/iwata/git-now)
 
 [![Gem Version](https://badge.fury.io/rb/itamae-plugin-recipe-git_now.svg)](https://badge.fury.io/rb/itamae-plugin-recipe-git_now)
-[![Build Status](https://travis-ci.org/sue445/itamae-plugin-recipe-git_now.svg?branch=master)](https://travis-ci.org/sue445/itamae-plugin-recipe-git_now)
+[![Build Status](https://github.com/sue445/itamae-plugin-recipe-git_now/workflows/test/badge.svg?branch=master)](https://github.com/sue445/itamae-plugin-recipe-git_now/actions?query=workflow%3Atest)
 
 ## Installation
 
@@ -56,15 +56,6 @@ git_now:
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake false` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Testing
-requirements [Vagrant](https://www.vagrantup.com/)
-
-```sh
-vagrant up centos7
-bundle exec rake itamae:centos7
-bundle exec rake spec:centos7
-```
 
 ## Contributing
 
