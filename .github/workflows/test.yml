@@ -20,9 +20,11 @@ jobs:
           - 2.3
         image:
           - centos:7
+          - centos:8
           - debian:jessie
           - debian:stretch
           - debian:buster
+          - amazonlinux:2
 
     steps:
       - uses: actions/checkout@v2
