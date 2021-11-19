@@ -1,5 +1,11 @@
 # Change Log
 
+## [v0.1.2](https://github.com/sue445/itamae-plugin-recipe-git_now/tree/v0.1.2) (2021/11/20)
+[Full Changelog](https://github.com/sue445/itamae-plugin-recipe-git_now/compare/v0.1.1...v0.1.2)
+
+* Enable MFA requirement for gem releasing
+  * https://github.com/sue445/itamae-plugin-recipe-git_now/pull/25
+
 ## [v0.1.1](https://github.com/sue445/itamae-plugin-recipe-git_now/tree/v0.1.1) (2016/03/07)
 [Full Changelog](https://github.com/sue445/itamae-plugin-recipe-git_now/compare/v0.1.0...v0.1.1)
 
