@@ -1,7 +1,7 @@
 node.reverse_merge!(
   git_now: {
     prefix: "/usr/local",
-    scheme: "git",
+    scheme: "https",
   },
 )
 
