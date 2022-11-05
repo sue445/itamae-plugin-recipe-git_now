@@ -44,8 +44,8 @@ git_now:
   # source dir (default: #{node[:git_now][:prefix]}/src)
   src: /usr/local/src
   
-  # specify scheme to use in git clone (default: git)
-  scheme: git
+  # specify scheme to use in git clone (default: https)
+  scheme: https
 
   # install revision (default: HEAD)
   revision: v0.1.1.0
