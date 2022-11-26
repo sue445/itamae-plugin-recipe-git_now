@@ -25,7 +25,6 @@ jobs:
         image:
           - centos:7
           - centos:8
-          - debian:jessie
           - debian:stretch
           - debian:buster
 
