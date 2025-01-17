@@ -3,7 +3,7 @@
 [Itamae](https://github.com/itamae-kitchen/itamae) plugin to install [git-now](https://github.com/iwata/git-now)
 
 [![Gem Version](https://badge.fury.io/rb/itamae-plugin-recipe-git_now.svg)](https://badge.fury.io/rb/itamae-plugin-recipe-git_now)
-[![Build Status](https://github.com/sue445/itamae-plugin-recipe-git_now/workflows/test/badge.svg?branch=master)](https://github.com/sue445/itamae-plugin-recipe-git_now/actions?query=workflow%3Atest)
+[![test](https://github.com/sue445/itamae-plugin-recipe-git_now/actions/workflows/test.yml/badge.svg)](https://github.com/sue445/itamae-plugin-recipe-git_now/actions/workflows/test.yml)
 
 ## Installation
 
