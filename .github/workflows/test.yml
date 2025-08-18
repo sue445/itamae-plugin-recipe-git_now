@@ -24,7 +24,9 @@ jobs:
           - "2.3"
         image:
           - centos:8
-          - debian:buster
+          - debian:bullseye
+          - debian:bookworm
+          - debian:trixie
 
     steps:
       - uses: actions/checkout@v4
