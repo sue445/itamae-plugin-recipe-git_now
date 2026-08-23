@@ -1,7 +1,13 @@
 # Change Log
 
 ## Unreleased
-[Full Changelog](https://github.com/sue445/itamae-plugin-recipe-git_now/compare/v1.0.1...master)
+[Full Changelog](https://github.com/sue445/itamae-plugin-recipe-git_now/compare/v1.0.2...master)
+
+## [v1.0.2](https://github.com/sue445/itamae-plugin-recipe-git_now/releases/tag/v1.0.2) (2026/08/23)
+[Full Changelog](https://github.com/sue445/itamae-plugin-recipe-git_now/compare/v1.0.1...v1.0.2)
+
+* Migrate release_gem workflow to sue445/workflows (Also testing the gem release)
+  * https://github.com/sue445/itamae-plugin-recipe-git_now/pull/72
 
 ## [v1.0.1](https://github.com/sue445/itamae-plugin-recipe-git_now/releases/tag/v1.0.1) (2025/11/29)
 [Full Changelog](https://github.com/sue445/itamae-plugin-recipe-git_now/compare/v1.0.0...v1.0.1)
